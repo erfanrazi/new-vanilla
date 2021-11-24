@@ -52,6 +52,4 @@ function displayTemperature(response) {
 let apiKey = "ebe9bdb97484967c79da5326d581276d";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Los%20Angeles&appid=${apiKey}&units=imperial`;
 
-let form = document.querySelector("form");
-form.addEventListener("submit", findCity);
 axios.get(apiUrl).then(displayTemperature);
