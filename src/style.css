@@ -134,3 +134,10 @@ li:first-letter {
   font-weight: 400;
   text-align: right;
 }
+.active {
+  color: white;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
